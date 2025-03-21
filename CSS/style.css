@@ -194,3 +194,137 @@ a {
     margin-top: 19px;
     padding-bottom: 121px;
 }
+
+/* ----Benefits---- */
+
+.benefits__container {
+    max-width: 1124px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding: 105px 0;
+}
+
+.benefits {
+    background-color: #F7F7F7;
+}
+
+.benefits__items {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid #E8E9ED;
+}
+
+.benefits__header {
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    margin-bottom: 30px;
+}
+
+.benefits__text {
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: var(--color-black);
+}
+
+.benefits__divider {
+    width: 327px;
+    height: 4px;
+    margin-top: 46px;
+}
+
+.item__1--divider {
+    background-color: #FB3B64;
+}
+
+.item__1--container {
+    padding: 91px 0 91px 35px;
+    max-width: 451px;
+}
+
+.item__1,
+.item__2,
+.item__3 {
+    position: relative;
+}
+
+.benefits__img--macbook {
+    position: absolute;
+    right: 117px;
+    bottom: 38px;
+    z-index: 1;
+}
+
+.benefits__square {
+    width: 180px;
+    height: 180px;
+    background-color: #FB3B64;
+    border-radius: 0px;
+    rotate: 45deg;
+    border-radius: 41px;
+
+    position: absolute;
+    right: 91px;
+    top: 58px;
+}
+
+.item__2--container {
+    max-width: 416px;
+    padding: 69px 20px 71px 0;
+}
+
+.item__2--divider {
+    background-color: #08A6E4;
+}
+
+.benefits__img--phone {
+    position: absolute;
+    left: 70px;
+    top: 29px;
+    z-index: 1;
+}
+
+.benefits__circle {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    background-color: #07ACE6;
+    border-radius: 50%;
+    top: 12px;
+    left: 70px;
+}
+
+.item__3 {
+    display: flex; 
+    gap: 61px;
+    background-color: #F7F7F7;
+}
+
+.item__3--container {
+    width: 623px;
+    background-color: var(--color-white);
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+}
+
+.item__3--wrapper {
+    background-color: #55DFB4;
+    width: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+}
+
+.item__3--container {
+    padding: 69px 0 71px 35px;
+}
+
+.item__3--divider {
+    background-color: #55DFB4;
+}
