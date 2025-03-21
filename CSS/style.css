@@ -34,6 +34,11 @@ a {
     padding: 16px 0  17px 0;
 }
 
+.logo:hover {   
+    background-color: #00000029;
+    transition: 1s;
+}
+
 .nav__wraper {
     display: flex;
     justify-content: space-between;
