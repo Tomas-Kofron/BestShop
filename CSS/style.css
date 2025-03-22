@@ -446,6 +446,7 @@ li {
 .pricing__items2--price {
     font-family: Open Sans;
     font-size: 46px;
+    font-weight: 300;
     line-height: 46px;
     letter-spacing: 0px;
     color: #07ACE6;
