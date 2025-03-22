@@ -24,6 +24,9 @@ a {
     margin: 0 auto;
 }   
 
+li {
+    list-style: none;
+}
 
  /* ----header---- */
 
@@ -327,4 +330,157 @@ a {
 
 .item__3--divider {
     background-color: #55DFB4;
+}
+
+/* ----pricing---- */
+
+.pricing__items {
+    width: 372px;
+
+    border: 1px solid #FB3B64; border-radius: 18px;
+
+    position: relative;
+}
+
+.pricing__header {
+    color: var(--color-black);
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    padding: 100px 0 50px 0;
+}
+
+.pricing__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 81px;
+    font-size: 14px;
+    font-family: Open Sans;
+    color: var(--color-black);
+    line-height: 39px;
+}
+
+.pricing__items--header {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 34px 0 14px 0;
+    text-align: center;
+    color: #13253B;
+}
+
+.pricing__items--price {
+    font-family: "Open Sans";
+    font-size: 46px;
+    font-weight: lighter;
+    padding: 0 0 69px 0;
+    text-align: center;
+    color: #FB3B64;
+}
+
+.pricing__items--btn {
+    position: absolute;
+    bottom: -25px;
+    display: inline-block;
+    padding: 16px 57px;
+    background-color: #EB476E;
+    font: normal normal bold 13px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 0 111px;
+    border-radius: 23px;
+}
+
+.available::before {
+    content: url(../Images/Checkmark-2.svg);
+    margin-right: 10px;
+}
+
+.not__available::before {
+    content: url(../Images/Close.svg);
+    margin-right: 10px;
+}
+
+.pricing__item3 {
+    border: 1px solid #55DFB4;
+}
+
+.pricing__item3--price {
+    color: #55DFB4;
+    position: relative;
+}
+
+.pricing__item3--price::after {
+    content: "Limited offer";
+    position: absolute;
+    font: normal normal bold 12px/1px Raleway;
+    letter-spacing: 0px;
+    color: #13253B;
+    top: 69px;
+    left: 150px;
+}
+
+.pricing__item3--btb {
+    background-color: #55DFB4;
+}
+
+.pricing__item2 {
+    width: 405px;
+    border: 1px solid #07ACE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.pricing__items2--header {
+    font: normal normal bold 21px/1px Raleway;
+    letter-spacing: 0px;
+    color: #13253B;
+    padding: 34px 0 24px 0;
+}
+
+.pricing__items2--price {
+    font-family: Open Sans;
+    font-size: 46px;
+    line-height: 46px;
+    letter-spacing: 0px;
+    color: #07ACE6;
+    padding: 0 0 20px 0;
+}
+
+.pricing__offer {
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #13253B;
+    padding: 0 0 61px 0;
+}
+
+.pricing__item2--list {
+    font: normal normal normal 14px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    padding-bottom: 79px;
+}
+
+.pricing__item2--btb {
+    padding: 16px 64px;
+    background-color: #07ACE6;
+    border-radius: 23px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -25px;
+}
+
+.pricing__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 59px;
+    align-items: center;
 }
