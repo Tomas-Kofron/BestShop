@@ -673,7 +673,7 @@ li {
   }
 
   .consent__checkbox input:checked + span {
-    background-image: url("/Images/Checkmark.svg");
+    background-image: url("../Images/Checkmark.svg");
     background-size: 12px 9px;
     background-position: center;
     background-repeat: no-repeat;
