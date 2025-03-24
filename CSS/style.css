@@ -124,6 +124,12 @@ li {
     margin: 0 auto;
 }
 
+.opening__btn:hover {
+    background-color: #086be4;
+    transition: 1s;
+    color: rgb(253, 255, 110);
+}
+
 .opening__img {
     object-fit: cover;
     width: 100%;
@@ -397,6 +403,12 @@ li {
     border-radius: 23px;
 }
 
+.pricing__items--btn:hover {
+    background-color: #b33654;
+    transition: 1s;
+    color: #d4d4d4;
+}
+
 .available::before {
     content: url(../Images/Checkmark-2.svg);
     margin-right: 10px;
@@ -426,8 +438,13 @@ li {
     left: 150px;
 }
 
-.pricing__item3--btb {
+.pricing__item3--btn {
     background-color: #55DFB4;
+}
+
+.pricing__item3--btn:hover {
+    background-color: #40a283;
+    transition: 1s;
 }
 
 .pricing__item2 {
@@ -473,13 +490,19 @@ li {
     padding-bottom: 79px;
 }
 
-.pricing__item2--btb {
+.pricing__item2--btn {
     padding: 16px 64px;
     background-color: #07ACE6;
     border-radius: 23px;
     margin: 0 auto;
     position: absolute;
     bottom: -25px;
+}
+
+.pricing__item2--btn:hover {
+    background-color: #0578a1;
+    transition: 1s;
+    color: #cdcdcd;
 }
 
 .pricing__wrapper {
@@ -581,6 +604,12 @@ li {
     font: normal normal bold 0.8125rem/1.125rem Open Sans;
     letter-spacing: 0rem;
     color: #FFFFFF;
+}
+
+.consent__btn:hover {
+    background-color: #0578a1;
+    transition: 1s;
+    color: #cdcdcd;
 }
 
 .footer {
